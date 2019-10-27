@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import PictureFunction from './Picture'
+import PictureFunction from './picture'
 
 const AboutInfo = () => {
     return (
