@@ -24,12 +24,16 @@
     padding: 1em;
 }
 
+.about-text {
+    flex: 1 1 50%;
+}
+
 .picture {
     flex: 1 1 50%;
 }
 
 .picture-img {
-    width: 100%;
+    width: 50%;
 }
 
 .skills {

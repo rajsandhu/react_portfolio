@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import PictureFunction from './Picture'
 
-const AboutTitle = () => {
+const AboutInfo = () => {
     return (
         <div className="about">
             <h1>This is My About Me Section</h1>
             <PictureFunction />
+            <div className="about-text">I like cheese, chocolate, and, lately, apples</div>
 
         </div>
     )
@@ -14,7 +15,7 @@ const AboutTitle = () => {
 class About extends Component {
     render() {
         return (
-            <AboutTitle />
+            <AboutInfo />
         )
     }
 }
