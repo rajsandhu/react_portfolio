@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 
 const HeaderTitle = () => {
     return (
-        <h1>This is my Header</h1>
+        <div className="header">
+            <h1>This is my Header</h1>
+        </div>
     )
 }
 
