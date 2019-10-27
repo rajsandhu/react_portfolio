@@ -10,13 +10,17 @@
 }
 
 .header {
-    color: purple;
+    color: red;
 }
 
 .about {
+    color: orange;
+}
 
+.skills {
+    color: yellow;
 }
 
 .contact {
-
+    color: green;
 }
