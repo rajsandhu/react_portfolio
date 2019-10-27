@@ -1,26 +1,45 @@
 * {
     /*color: black;*/
     font-family:"Helvetica";
-    margin: 0;
-    padding: 0;
+
 }
 
 .App {
 
 }
 
+.container {
+    background-color: grey;
+}
+
 .header {
-    color: red;
+    background-color: red;
+    margin: 1em;
+    padding: 1em;
 }
 
 .about {
-    color: orange;
+    background-color: orange;
+    margin: 1em;
+    padding: 1em;
+}
+
+.picture {
+    flex: 1 1 50%;
+}
+
+.picture-img {
+    width: 100%;
 }
 
 .skills {
-    color: yellow;
+    background-color: yellow;
+    margin: 1em;
+    padding: 1em;
 }
 
 .contact {
-    color: green;
+    background-color: green;
+    margin: 1em;
+    padding: 1em;
 }

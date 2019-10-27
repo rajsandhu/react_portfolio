@@ -4,6 +4,7 @@ import About from './About'
 import Skills from './Skills'
 import Contact from './Contact'
 
+
 class App extends Component {
     render() {
         return (
